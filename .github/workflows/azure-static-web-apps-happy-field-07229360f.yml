@@ -49,8 +49,7 @@ jobs:
           curl -X POST -H 'Content-type: application/json' \
           --data '{"text":"✅ Build succeeded on GitHub Actions!"}' \
           ${{ secrets.SLACK_WEBHOOK_URL }}
-         
-
+        
           ###### End of Repository/Build Configurations ######
 
 
